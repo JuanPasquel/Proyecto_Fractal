@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #222;
+    color: #eee;
+    font-family: Arial, sans-serif;
+  }
+  h1 {
+    margin-bottom: 10px;
+  }
+  #controls {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  label {
+    margin-right: 10px;
+  }
+  canvas {
+    border: 1px solid #555;
+    cursor: grab;
+  }
+  canvas:active {
+    cursor: grabbing;
+  }
